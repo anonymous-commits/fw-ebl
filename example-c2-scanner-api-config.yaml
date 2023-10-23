@@ -1,0 +1,4 @@
+example-c2-api:
+    apiurl: "https://api.example.net/v1/c2_lookup"
+    apikey: "INSERT-API-KEY"
+    daysBack: 90
