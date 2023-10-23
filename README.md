@@ -3,6 +3,7 @@
 This repository contains scripts to update embedded OS firewalls with dynamically downloaded block list IP-addresses.<br/>
 The scripts will take multiple "EBL" formated textfiles, that is a text file containing _ONE_ IP-address or CIDR per row. Everything on a line after a comment will be ignored.<br/>
 The EBL files can be referenced from filesystem or a URL.<br/>
+This EBL-files (now adays called EDL by Palo Alto) can also be source directly to Palo Alto firewalls - https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/external-dynamic-list<br/>
 The scripts will create multiple outbound block/deny rules per source list, but will chunk as many IP's togheter in one rule that is apporpriate per implementation.<br/>
 Key use case beeing that you have a list of "bad IPs", could be C2-servers or something else.<br/>
 
