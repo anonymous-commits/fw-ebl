@@ -10,4 +10,4 @@ The script defender-ebl.ps1 is a powershell script intended to be run on a stand
 The script defender-ebl-gpo.ps1 is a powershell script intended for domain joined computers, it updates a GPO that can be linked to your target computers.<br/>
 
 There might be other scripts and ansible playbooks etc in the futher.<br/>
-There are plans to make scripts for Linux-systems as well as Windows.
+There are plans to make scripts for Linux-systems (combo RHEL firewalld and Ubuntu ufw) as well as Windows.
